@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex flex-col items-center">
+    <navbar-component></navbar-component>
+    <bread-crumb></bread-crumb>
+
+    <section class=" w-full">
+        <div class="flex w-screen justify-center bg-gray-100 h-14 items-center px-4">
+            <div class="flex items-center space-x-12">
+
+                <button class="carousel-control-prev text-gray-400 rounded-full p-2 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                </button>
+                <div class="flex items-center underline">
+                    Members: free on shipping on Order $50+
+                </div>
+            </div>
+            
+            <div class="flex space-x-2">
+                
+                <button class="carousel-control-next text-gray-400 rounded-full p-2 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="flex w-screen justify-center">
+        <div class="flex max-w-screen-2xl w-screen justify-between py-1 px-10 items-center mt-10">
+            <div>Naomi Osaka</div>
+
+            <div class="xl:flex gap-2 items-center mx-5">
+                <div class="hidden shrink-0 md:flex xl:flex">
+                    <div class="flex gap-10">
+
+                        <p class="flex">Show Filters
+                            <svg aria-hidden="true" class="h-6" focusable="false" viewBox="0 0 24 24" fill="none">
+                                <path stroke="currentColor" stroke-width="1.5" d="M21 8.25H10m-5.25 0H3"></path>
+                                <path stroke="currentColor" stroke-width="1.5"
+                                    d="M7.5 6v0a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" clip-rule="evenodd"></path>
+                                <path stroke="currentColor" stroke-width="1.5" d="M3 15.75h10.75m5 0H21"></path>
+                                <path stroke="currentColor" stroke-width="1.5"
+                                    d="M16.5 13.5v0a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" clip-rule="evenodd">
+                                </path>
+                            </svg>
+                        </p>
+
+                        <p class="flex">Sort By
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4" viewBox="0 0 512 512">
+                                <path
+                                    d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                            </svg>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="max-w-screen-xl w-full">
+        <div class="flex justify-start space-x-10 font-semibold lg:hidden px-10 my-5 text-nowrap">
+            <p>Shoes</p>
+            <p>Hoodies & Pullovers</p>
+            <p>Pant & Tights</p>
+            <p>Top & T-Shirts</p>
+            <p>Shorts</p>
+            <p>Acessories & Equipment</p>
+        </div>
+        </div>
+
+        <hr>
+        <div class="flex justify-between items-center space-x-10 font-semibold lg:hidden px-10 my-5">
+            Pick Up Today
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="w-16" fill="gray">
+                <path
+                    d="M192 64C86 64 0 150 0 256S86 448 192 448H384c106 0 192-86 192-192s-86-192-192-192H192zm192 96a96 96 0 1 1 0 192 96 96 0 1 1 0-192z" />
+            </svg>
+        </div>
+        <hr>
+        <div class="text-gray-300 font-light flex justify-between space-x-10 lg:hidden px-10 my-5">
+            <p>19 Results</p>
+            <button class=" border border-gray-300 rounded-full w-36 h-1 text-black font-semibold">
+                <div class="flex gap-3 justify-center items-center">
+                    <span class="text-xl">Filter</span>
+                    <span>
+                        <svg aria-hidden="true" class="h-6" focusable="false" viewBox="0 0 24 24" fill="none">
+                            <path stroke="currentColor" stroke-width="1.5" d="M21 8.25H10m-5.25 0H3"></path>
+                            <path stroke="currentColor" stroke-width="1.5"
+                                d="M7.5 6v0a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" clip-rule="evenodd"></path>
+                            <path stroke="currentColor" stroke-width="1.5" d="M3 15.75h10.75m5 0H21"></path>
+                            <path stroke="currentColor" stroke-width="1.5"
+                                d="M16.5 13.5v0a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" clip-rule="evenodd"></path>
+                        </svg>
+                    </span>
+                </div>
+            </button>
+        </div>
+    </section>
+
+    <!--Vertical Side Menu-->
+    <section class="grid grid-cols-12 max-w-[1920px]">
+        <section class="col-span-2 p-6 overflow-y lg:flex lg:flex-col hidden">
+            <div>
+                <div class="font-semibold py-3">Pick Up Today</div>
+                <hr>
+                <div>
+                    <p>Shoes</p>
+                    <p>Hoodies & Pullovers</p>
+                    <p>Pants & Tights</p>
+                    <p>Top & T-Shirts</p>
+                    <p>Shorts</p>
+                    <p>Acessories & <br>Equipment</p>
+                </div>
+                <hr>
+                <div>
+                    <details>
+                        <summary class="flex justify-between items-center">Sale & Offers
+                            <div class="leading-8 text-md">
+                                <svg aria-hidden="false" class="h-6" focusable="false" viewBox="0 0 24 24" role="img"
+                                    fill="none">
+                                    <path stroke="currentColor" stroke-width="1.5"
+                                        d="M18.966 8.476L12 15.443 5.033 8.476"></path>
+                                    <title>Caret Down Icon</title>
+                                </svg>
+                        </summary>
+                        <div class="flex items-center">
+                            <input type="checkbox" class="border w-6 h-fit border-gray-100 ">
+                            <p>Summer Sale 25% Off</p>
+                        </div>
+                        <input type="checkbox" class="border w-6 h-fit border-gray-100">Sale
+                </div>
+                </details>
+
+                <hr>
+                <details open>
+                    <summary class="flex justify-between items-center">Gender
+                        <div class="leading-8 text-md">
+                            <svg aria-hidden="false" class="h-6" focusable="false" viewBox="0 0 24 24" role="img"
+                                fill="none">
+                                <path stroke="currentColor" stroke-width="1.5" d="M18.966 8.476L12 15.443 5.033 8.476">
+                                </path>
+                                <title>Caret Down Icon</title>
+                            </svg>
+                    </summary>
+                    <div class="flex items-center">
+                        <input type="checkbox" class="border border-gray-100 w-6 h-fit">Men
+                    </div>
+                    <div>
+                        <input type="checkbox" class="border border-gray-100 w-6 h-fit">Women</div>
+                        <input type="checkbox" class="border border-gray-100 w-6 h-fit">Unisex
+                    </div>
+            </div>
+            </details>
+
+            <hr>
+            <details open>
+                <summary class="flex items-center">Color
+                    <div class="leading-8 text-md">
+                        <svg aria-hidden="false" class="h-6" focusable="false" viewBox="0 0 24 24" role="img"
+                            fill="none">
+                            <path stroke="currentColor" stroke-width="1.5" d="M18.966 8.476L12 15.443 5.033 8.476">
+                            </path>
+                            <title>Caret Down Icon</title>
+                        </svg>
+                </summary>
+                <div class="">
+                    <div class="flex gap-4">
+                    <div class="sticky rounded-full size-10 bg-black">
+                    <p class="flex items-center mt-10">Black</p>
+                    </div>
+                    <div class=" sticky rounded-full size-10 bg-orange-950">
+                    <p class="flex items-center mt-10">Brown</p>
+                    </div>
+
+                    <div class="sticky rounded-full size-10 bg-green-600">
+                    <p class="flex items-center mt-10">Green</p>
+                    </div>  
+                    </div>
+                    
+                    <div class="flex gap-4 mt-10">
+                    <div class="sticky rounded-full size-10 bg-gray-500">
+                    <p class="flex items-center mt-10">Gray</p>
+                    </div>
+
+                    <div class="sticky border-2 rounded-full size-10 bg-white">
+                    <p class="flex items-center mt-10">White</p>
+                    </div>
+                </div> 
+            </div>
+                </div>
+            </details>
+
+            
+            <details class="mt-10" open>
+                <summary class="flex items-center">Shop by Price
+                    <div class="leading-8 text-md">
+                        <svg aria-hidden="false" class="h-6" focusable="false" viewBox="0 0 24 24" role="img"
+                            fill="none">
+                            <path stroke="currentColor" stroke-width="1.5" d="M18.966 8.476L12 15.443 5.033 8.476">
+                            </path>
+                            <title>Caret Down Icon</title>
+                        </svg>
+                </summary>
+                
+                    <div>
+                        <div>
+                    <input type="checkbox" class="border border-gray-100 w-10 h-5">$25 - $50
+                </div>
+                <div>
+                    <input type="checkbox" class="border border-gray-100 w-10 h-5">$50 - $100</div>
+                    <div>
+                    <input type="checkbox" class="border border-gray-100 w-10 h-5">$100 - $150
+                </div>
+                    <input type="checkbox" class="border border-gray-100 w-10 h-5">Over $150
+                </div>
+                </div>
+            </details>
+
+            <hr>
+            <details open>
+                <summary class="flex items-center">Brand
+                    <div class="leading-8 text-md">
+                        <svg aria-hidden="false" class="h-6" focusable="false" viewBox="0 0 24 24" role="img"
+                            fill="none">
+                            <path stroke="currentColor" stroke-width="1.5" d="M18.966 8.476L12 15.443 5.033 8.476">
+                            </path>
+                            <title>Caret Down Icon</title>
+                        </svg>
+                </summary>
+                <input type="checkbox" class="border border-gray-100 w-10 h-5"> Nike Sportswear
+                </div>
+            </details>
+
+            <hr>
+            <details open>
+                <summary class="flex items-center">Sports & Activities
+                    <div class="leading-8 text-md">
+                        <svg aria-hidden="false" class="h-6" focusable="false" viewBox="0 0 24 24" role="img"
+                            fill="none">
+                            <path stroke="currentColor" stroke-width="1.5" d="M18.966 8.476L12 15.443 5.033 8.476">
+                            </path>
+                            <title>Caret Down Icon</title>
+                        </svg>
+                </summary>
+                <div>
+                    <div>
+                <input type="checkbox" class="border border-gray-100 w-10 h-5"> Lifestyle
+            </div>
+            <div>
+                <input type="checkbox" class="border border-gray-100 w-10 h-5"> Training & Gym
+            </div>
+                <input type="checkbox" class="border border-gray-100 w-10 h-5"> Tennis
+                </div>
+            </div>
+            </details>
+
+
+        </section>
+
+        <section class="col-span-10 flex flex-wrap ">
+
+            <div class="w-1/3 p-2">
+                <img src="../../assets/images/naomi-osaka-cardigan-MRtC5b.png" alt="">
+                <div class="my-5 px-4">
+                    <p class="text-red-800 font-semibold">Just In</p>
+                    <p class="font-semibold text-lg">Naomi Osaka</p>
+                    <p class="text-gray-400">Cardigan</p>
+                    <p class="text-gray-400">1 Color</p>
+                    <p class=" mt-5 font-bold">$175</p>
+                </div>
+            </div>
+
+            <div class="w-1/3 p-2 ">
+                <img src="../../assets/images/naomi-osaka-short-sleeve-top-kJsPhr (1).png" alt="">
+                <div class="my-5 px-4">
+                    <p class="text-red-800 font-semibold">Just In</p>
+                    <p class="font-semibold text-lg">Naomi Osaka</p>
+                    <p class="text-gray-400">Short-Sleeve Top</p>
+                    <p class="text-gray-400">1 Color</p>
+                    <p class=" mt-5 font-bold">$50</p>
+                </div>
+            </div>
+
+            <div class="w-1/3 p-2">
+                <img src="../../assets/images/naomi-osaka-short-sleeve-top-kJsPhr.png" alt="">
+                <div class="my-5 px-4">
+                    <p class="text-red-800 font-semibold">Just In</p>
+                    <p class="font-semibold text-lg">Naomi Osaka</p>
+                    <p class="text-gray-400">Short-Sleeve Top</p>
+                    <p class="text-gray-400">1 Color</p>
+                    <p class=" mt-5 font-bold">$50</p>
+                </div>
+            </div>
+
+            <div class="w-1/3 p-2">
+                <img src="../../assets/images/naomi-osaka-womens-high-waisted-breakaway-shorts-Mnt2qr (1).png" alt="">
+                <div class="my-5 px-4">
+                    <p class="text-red-800 font-semibold">Just In</p>
+                    <p class="font-semibold text-lg">Naomi Osaka</p>
+                    <p class="text-gray-400">Women's High-Waisted Breakaway Shorts</p>
+                    <p class="text-gray-400">1 Color</p>
+                    <p class=" mt-5 font-bold">$75</p>
+                </div>
+            </div>
+
+            <div class="w-1/3 p-2">
+                <img src="../../assets/images/naomi-osaka-womens-high-waisted-breakaway-shorts-Mnt2qr.png" alt="">
+                <div class="my-5 px-4">
+                    <p class="text-red-800 font-semibold">Just In</p>
+                    <p class="font-semibold text-lg">Naomi Osaka</p>
+                    <p class="text-gray-400">Women's high-Waisted Breakaway Shorts</p>
+                    <p class="text-gray-400">1 Color</p>
+                    <p class=" mt-5 font-bold">$75</p>
+                </div>
+            </div>
+
+            <div class="w-1/3 p-2">
+                <img src="../../assets/images/naomi-osaka-womens-high-waisted-woven-skirt-Stxrm7 (1).png" alt="">
+                <div class="my-5 px-4">
+                    <p class="text-red-800 font-semibold">Just In</p>
+                    <p class="font-semibold text-lg">Naomi Osaka</p>
+                    <p class="text-gray-400">Women's High-Waisted Woven Skirt</p>
+                    <p class="text-gray-400">1 Color</p>
+                    <p class=" mt-5 font-bold">$90</p>
+                </div>
+            </div>
+
+            <div class="w-1/3 p-2">
+                <img src="../../assets/images/naomi-osaka-womens-high-waisted-woven-skirt-Stxrm7.png" alt="">
+                <div class="my-5 px-4">
+                    <p class="text-red-800 font-semibold">Just In</p>
+                    <p class="font-semibold text-lg">Naomi Osaka</p>
+                    <p class="text-gray-400">Women's High-Waisted Woven Skirt</p>
+                    <p class="text-gray-400">1 Color</p>
+                    <p class=" mt-5 font-bold">$90</p>
+                </div>
+            </div>
+
+            <div class="w-1/3 p-2">
+                <img src="../../assets/images/naomi-osaka-womens-mock-neck-cropped-tank-top-snlFkb (1).png" alt="">
+                <div class="my-5 px-4">
+                    <p class="text-red-800 font-semibold">Just In</p>
+                    <p class="font-semibold text-lg">Naomi Osaka</p>
+                    <p class="text-gray-400">Women's Mock-Neck Cropped Tank Top</p>
+                    <p class="text-gray-400">1 Color</p>
+                    <p class=" mt-5 font-bold">$65</p>
+                </div>
+            </div>
+
+            <div class="w-1/3 p-2 ">
+                <img src="../../assets/images/naomi-osaka-womens-mock-neck-cropped-tank-top-snlFkb.png" alt="">
+                <div class="my-5 px-4">
+                    <p class="text-red-800 font-semibold">Just In</p>
+                    <p class="font-semibold text-lg">Naomi Osaka</p>
+                    <p class="text-gray-400">Women's Mock-Neck Cropped Tank Top</p>
+                    <p class="text-gray-400">1 Color</p>
+                    <p class=" mt-5 font-bold">$65</p>
+                </div>
+            </div>
+
+        </section>
+    </section>
+</section>
+
+
+
+
+
+
+
+    <footer-component></footer-component>
+    <script src="../../script/components/navbar.js"></script>
+    <script src="../../script/components/footer.js"></script>
+    <script src="../../script/components/breadcrumb.js"></script>
+</body>
+
+</html>
